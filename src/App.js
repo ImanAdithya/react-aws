@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="hero">
+      <div className="hero-content">
+        <h1>Build Modern Web Apps Iman</h1>
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          A clean React starter UI designed for speed, simplicity, and modern development.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <div className="buttons">
+          <button className="primary-btn">Get Started</button>
+          <button className="secondary-btn">Learn More</button>
+        </div>
+      </div>
     </div>
   );
 }
