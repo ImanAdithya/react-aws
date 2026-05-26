@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="hero">
       <div className="hero-content">
-        <h1>Build Modern Web Apps Iman</h1>
+        <h1>Build Modern React Web Apps</h1>
 
         <p>
           A clean React starter UI designed for speed, simplicity, and modern development.
